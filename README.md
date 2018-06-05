@@ -47,7 +47,6 @@ NOTE:For windows user if an error occurs
 4.Navigate to vagrant directory type
 ```vagrant up```
 This installs the linux system onto your virtual system
-
 5. After the system is installed we have to login
 ```vagrant ssh```
 this logs you into your virtual system.
@@ -91,4 +90,5 @@ Request leading to more than 1% error
 psql -d news
 ```
 2.enter the SQL query to perform search and press enter.
+
 3.to exit press ctrl+d 
