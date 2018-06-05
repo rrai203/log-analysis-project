@@ -1,0 +1,17 @@
+LOG ANALYSIS
+
+Popular Article Of All Time
+
+Candidate is jerk, alleges rival  --------  338647  views
+Bears love berries, alleges bear  --------  253801  views
+Bad things gone, say good people  --------  170098  views
+
+Popular Authors Of All Time
+
+Ursula La Multa  --------  507594  views
+Rudolf von Treppenwitz  --------  423457  views
+Anonymous Contributor  --------  170098  views
+
+Request leading to more than 1% error
+
+2016-07-17  --------  2.300%
