@@ -1,4 +1,5 @@
-"""Python --version  Python 3.6.5"""
+#!/usr/bin/env python3
+
 import psycopg2
 
 
@@ -13,12 +14,16 @@ import psycopg2
 
 
 def search_engine(search):
-    db = psycopg2.connect("dbname=news")
-    cursor = db.cursor()
-    cursor.execute(search)
-    rows = cursor.fetchall()
-    db.close()
-    return rows
+    try:
+        db = psycopg2.connect("dbname=news")
+        cursor = db.cursor()
+        cursor.execute(search)
+        rows = cursor.fetchall()
+        db.close()
+        return rows
+    except Exception as e:
+        print("Cannot connect to database")
+        print(e)
 
 
 """Perform query and print top 3 popular articles"""
